@@ -1,0 +1,186 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+.navbar{
+    border-bottom: 1px solid #000000;
+    /* background-color: #8ecae6; */
+    box-shadow:  -1px 4px 25px 3px rgba(0, 0, 0, 0.62);
+    height: 13vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3vw;
+
+}
+
+body{
+    overflow-x: hidden;
+} 
+
+.navbar h1{
+    font-size: 4vw;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    gap: 4vw;
+    list-style: none;
+    font-size: 1.5vw;
+}
+
+.nav-links a {
+    color: rgb(2, 43, 54);
+    text-decoration: none;
+}
+
+.nav-links i {
+    display: flex;
+    align-items: center;
+    font-size: 2.1vw;
+    display: none;
+}
+
+
+/* Nav-bar End's */
+
+
+.section1{
+    height: calc(100vh - 13vh);
+    display: flex;
+}
+
+
+.left{
+    height: 100wh;
+    width: 55%;
+    padding: 7vw ;
+}
+
+.left p {
+    font-weight: 600;
+    color: #666;
+    width: 90%;
+    margin-top: 1vw;
+    margin-bottom: 1vw ;
+}
+
+.left button{
+    border: 2px solid black;
+    background-color: #FF735C;
+    border-radius: 4vw;
+    width: 8vw;
+    padding: 1vw;
+    margin: 1vw;
+    font-size: 1vw;
+}
+
+
+
+.section1 p {
+    font-size: 2vw;
+}
+
+.section1 h1 {
+    font-size: 4vw;
+    line-height: 4vw;
+}
+
+.section1 h1 span {
+    color: #FF735C;
+}
+
+
+.right{
+    height: 100wh;
+    width: 45%;
+
+}
+
+.right img {
+    height: 80vh;
+    width: 40vw;
+    margin-top:5.67vw;
+}
+
+
+
+@media (max-width:400px) {
+    /* Nav bar Start */
+    .navbar{
+        background-color:  #04d47388;
+        height: 8.6vh;
+    }
+
+    .nav-links a{
+         color: rgba(1, 32, 40, 0.896);
+         display: none;
+         font-size: 3.5vw;
+
+    }
+
+    .nav-links i {
+            display: block;
+            font-size: 6vw;
+            font-weight: 600;
+            display: flex;
+            padding: 0 2vw;
+        }
+
+    .navbar h1 {
+        font-size: 5vw;
+    }
+
+    /* Nav bar Ends */
+    
+
+    .section1{
+        flex-direction: column;
+    }
+
+
+   .left {
+    width: 100%;
+   } 
+    .left h1 {
+        font-size: 7vw;
+        line-height: 4vh;
+    }
+
+    .left p{
+        margin-top: 2vh;
+        font-size: 5.5vw;
+    }
+
+    .left button {
+        font-size: 5vw;
+        width: 20vh;
+        box-shadow:  -1px 4px 25px 3px rgba(0, 0, 0, 0.62);
+        margin-top: 1.78vh;
+    }
+
+   .right{
+    width: 100%;
+    height: 100%;
+   }
+
+   .right img {
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+   }
+
+   body {
+  overflow-y: auto;
+}
+
+}
+
+/* yedi dimension */
+@media (max-width:653px) {
+    
+    .right img {
+        margin-top: 6.67vw;
+    }
+}

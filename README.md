@@ -25,7 +25,7 @@ Responsive-Landing-Page-2/
 │
 ├── index.html
 ├── style.css
-├──img/
+├──asset/
 │   ├── images/
 │   └── icons/
 └── README.md
@@ -38,7 +38,7 @@ Responsive-Landing-Page-2/
 Example:
 
 ```
-img/images/preview.png
+asset/images/preview.png
 ```
 
 ## 🎯 What I Learned
